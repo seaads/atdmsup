@@ -424,10 +424,9 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
-#slider { width:1280px; height:720px; }
 .page-scale-wrap { width:1280px; height:720px; background: #fff !important; }
 .paper-vertical { width:1280px; height:100%; }
-.paper-horizontal { width:2580px; height:732px; }
+.paper-horizontal { width:2570px; height:732px; }
 @media all and (max-height:720px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
@@ -435,5 +434,83 @@ body, #container-wrap { background:#ededed; }
 @media all and (max-width:1280px) {
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
+}
+#item525 {
+	background-image:url('../images/item_525.png');
+	width:1280px !important;
+	height:720px !important;
+}
+
+#item679 {
+	background-image:url('../images/item_679.png');
+	width:533px !important;
+	height:30px !important;
+	left:374px !important;
+}
+
+#item703 {
+	background-image:url('../images/item_703.png');
+	width:72px !important;
+	height:105px !important;
+}
+
+#item226 {
+	width:550px !important;
+	height:300px !important;
+	left:670px !important;
+	top:40px !important;
+}
+
+#item229 {
+	width:550px !important;
+	height:300px !important;
+	left:670px !important;
+	top:380px !important;
+}
+
+#item292 {
+	background-image:url('../images/item_292.png');
+	width:521px !important;
+	height:253px !important;
+	left:100px !important;
+	top:64px !important;
+}
+
+#item477 {
+	background-image:url('../images/item_477.png');
+	width:521px !important;
+	height:253px !important;
+	left:100px !important;
+	top:404px !important;
+}
+
+#item370 {
+	width:550px !important;
+	height:300px !important;
+	left:670px !important;
+	top:40px !important;
+}
+
+#item373 {
+	width:550px !important;
+	height:300px !important;
+	left:670px !important;
+	top:380px !important;
+}
+
+#item720 {
+	background-image:url('../images/item_720.png');
+	width:521px !important;
+	height:167px !important;
+	left:100px !important;
+	top:107px !important;
+}
+
+#item745 {
+	background-image:url('../images/item_745.png');
+	width:521px !important;
+	height:167px !important;
+	left:100px !important;
+	top:447px !important;
 }
 #in5footer,  #prefooter {display:none;}
