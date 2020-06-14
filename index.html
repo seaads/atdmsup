@@ -10,10 +10,12 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
 <script type="text/javascript" src="assets/js/vmouse.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.anythingslider.min.js"></script>
 <script src="assets/js/mediaelement-and-player.min.js"></script>
 <link rel="stylesheet" href="assets/css/mediaelementplayer.min.css" media="all"/>
-<script type="text/javascript" src="assets/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="assets/js/in5.config.js"></script>
+<link rel="stylesheet" href="assets/css/in5.slider.css" media="all">
 <link rel="stylesheet" href="assets/css/pages.css" media="all">
 </head>
 <body>
@@ -23,7 +25,7 @@
 <div id="loadIndicator"><img src="assets/images/loading.gif" alt="loading..."/><span>&nbsp;</span></div>
 <div id="container-wrap">
 <div id="container">
-<ul class="pages paper-vertical" id="slider">
+<ul class="pages" id="slider">
   <li class="page" data-name="1">
     <div class="page-scale-wrap mq-none mq-default" data-layout-name="undefined" style="width:1280px;height:720px;">
       <img src="assets/images/blank.gif" class="pageItem hd" alt="gjgjkgjgkjgjkg" id="item525" data-src="assets/images/item_525.png"/>
@@ -41,7 +43,7 @@
         </video>
       </div>
       <div id="item229" class="pageItem" alt="Movie" style="left:670px !important;top:380px !important;">
-        <video width="550" height="300" controls="controls" data-id="229" class="mejs-fsonly">
+        <video width="550" height="300" controls="controls" data-id="229" webkit-playsinline="playsinline" playsinline="playsinline">
           <source src="assets/media/1_2 dashboard.mp4" type="video/mp4"/>
           <object width="550" height="300" type="application/x-shockwave-flash" data="assets/media/flashmediaelement.swf">
             <param name="movie" value="assets/media/flashmediaelement.swf"/>
@@ -62,7 +64,7 @@
       <img src="assets/images/blank.gif" class="pageItem hd" alt="Automated Test Driver - New Features" style="left:374px !important;" id="item679" data-src="assets/images/item_679.png"/>
       <img src="assets/images/blank.gif" class="pageItem" alt="Rectangle" id="item798" data-src="assets/images/item_798.png"/>
       <div id="item370" class="pageItem" alt="Movie" style="left:670px !important;top:40px !important;">
-        <video width="550" height="300" controls="controls" data-id="370" class="mejs-fsonly">
+        <video width="550" height="300" controls="controls" data-id="370" webkit-playsinline="playsinline" playsinline="playsinline">
           <source src="assets/media/2 - multiple vehicles.mp4" type="video/mp4"/>
           <object width="550" height="300" type="application/x-shockwave-flash" data="assets/media/flashmediaelement.swf">
             <param name="movie" value="assets/media/flashmediaelement.swf"/>
@@ -73,7 +75,7 @@
         </video>
       </div>
       <div id="item373" class="pageItem" alt="Movie" style="left:670px !important;top:380px !important;">
-        <video width="550" height="300" controls="controls" data-id="373" data-end-action="mso,," class="mejs-fsonly">
+        <video width="550" height="300" controls="controls" data-id="373" webkit-playsinline="playsinline" playsinline="playsinline" data-end-action="mso,,">
           <source src="assets/media/3 - deconf.mp4" type="video/mp4"/>
           <object width="550" height="300" type="application/x-shockwave-flash" data="assets/media/flashmediaelement.swf">
             <param name="movie" value="assets/media/flashmediaelement.swf"/>
