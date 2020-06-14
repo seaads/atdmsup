@@ -29,17 +29,17 @@ var prefix = (function () {
   return { dom: dom, lowercase: pre, css: '-' + pre + '-', js: pre[0].toUpperCase() + pre.substr(1)};
 })();
 var pre = (document.createElement('div').style['WebkitTransform'] != undefined) ? '-webkit-' : '';
-var useSwipe = true;
-var pageMode = 'v';
+var useSwipe = false;
+var pageMode = 'csv';
 var pageW = 1280, pageH = 720;
-var multifile = true;
+var multifile = false;
 if(multifile) { 
 	$('html').addClass('multifile'); 
 	if(pageMode[0] == 'f') $('html').addClass('fade');
 }		
 var isLiquid = (pageMode.indexOf('liquid') != -1), flip = (pageMode.indexOf('flip') != -1) && !multifile;
-var arrowNav = true;
-var lazyLoad = false;
+var arrowNav = false;
+var lazyLoad = true;
 var scaleMode = 'none_desktop';
 var webAppType = '';
 var useTracker = false;
