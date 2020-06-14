@@ -41,7 +41,7 @@ var isLiquid = (pageMode.indexOf('liquid') != -1), flip = (pageMode.indexOf('fli
 var arrowNav = false;
 var lazyLoad = true;
 var scaleMode = 'none_desktop';
-var webAppType = '';
+var webAppType = 'mobile';
 var useTracker = false;
 var shareInfo = {btns:[], align:"left"};
 var maxScaleWidth, maxScaleHeight;
