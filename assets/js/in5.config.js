@@ -30,7 +30,7 @@ var prefix = (function () {
 })();
 var pre = (document.createElement('div').style['WebkitTransform'] != undefined) ? '-webkit-' : '';
 var useSwipe = false;
-var pageMode = 'csh';
+var pageMode = 'csv';
 var pageW = 1280, pageH = 720;
 var multifile = false;
 if(multifile) { 
