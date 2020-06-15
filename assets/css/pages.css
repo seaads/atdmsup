@@ -427,7 +427,7 @@ body, #container-wrap { background:#ededed; }
 #slider { width:1280px; height:720px; }
 .page-scale-wrap { width:1280px; height:720px; background: #fff !important; }
 .paper-vertical { width:1280px; height:100%; }
-.paper-horizontal { width:2580px; height:732px; }
+.paper-horizontal { width:3870px; height:732px; }
 @media all and (max-height:720px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
